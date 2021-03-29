@@ -5,11 +5,11 @@ import pandas as pd
 import pprint
 
 # Setup Reddit App
-reddit = praw.Reddit(client_id='RecJHW5-7o1fTQ',
-                    client_secret='nWmnR8t7didzxdj2DJTrLi77kAe9kw',
-                    user_agent='CaiNoel',
-                    username='CaiNoel',
-                    password='##########')
+reddit = praw.Reddit(client_id='yourClientID',
+                    client_secret='yourSecretKey',
+                    user_agent='yourUsername',
+                    username='yourUsername',
+                    password='yourPassword')
 
 subreddit = reddit.subreddit('wallstreetbets')
 
